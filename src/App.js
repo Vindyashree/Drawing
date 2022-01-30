@@ -50,9 +50,9 @@ function App() {
     <center>
       <center style = {{color:'green'}}>Start Drawing </center>
     <canvas 
-    onMouseDown={startDrawing}
-    onMouseUp={stopDrawing}
-    onMouseMove={draw}
+    onTouchStart={startDrawing}
+    onTouchEnd={stopDrawing}
+    onTouchMove={draw}
     ref={canvasRef}
     />
     </center>
