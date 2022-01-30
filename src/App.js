@@ -48,7 +48,7 @@ function App() {
 
   return (
     <center>
-      <center style = {{color:'green'}}><h1>Start Drawing </h1> </center>
+      <center style = {{color:'green'}}>Start Drawing </center>
     <canvas 
     onMouseDown={startDrawing}
     onMouseUp={stopDrawing}
